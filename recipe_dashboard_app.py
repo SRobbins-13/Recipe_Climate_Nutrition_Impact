@@ -9,7 +9,7 @@ are as follows:
 '''
 
 
-
+python -m pip install "pymongo[srv]"
 
 # Data Setup
 import pandas as pd
@@ -31,7 +31,7 @@ st.set_page_config(
 #connect to cloud Mongodb server
 database_name = 'RecipeData'
 
-client = MongoClient("mongodb://srobbins13:yFgUZTu1s3RLqo6c@recipecluster.qtpe1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://srobbins13:yFgUZTu1s3RLqo6c@recipecluster.qtpe1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client[database_name]
 
 # create list of recipe titles to pull random recipe from
