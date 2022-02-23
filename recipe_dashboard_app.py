@@ -29,18 +29,19 @@ st.set_page_config(
 
 #connect to cloud Mongodb server
 database_name = 'RecipeData'
-def mongo_connect()"
+def mongo_connect():
             return MongoClient("mongodb+srv://srobbins13:yFgUZTu1s3RLqo6c@recipecluster.qtpe1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 client = mongo_connect()
 db = client[database_name]
+st.write(db.list_collection_names())
 
-# create list of recipe titles to pull random recipe from
-recipe_list = list(db.recipes_totals.find({}))
-recipe_titles = []
+# # create list of recipe titles to pull random recipe from
+# recipe_list = list(db.recipes_totals.find({}))
+# recipe_titles = []
 
-for entry in recipe_list:
-    recipe_titles.append(entry['recipe'])
+# for entry in recipe_list:
+#     recipe_titles.append(entry['recipe'])
 
 
 ##############################################
