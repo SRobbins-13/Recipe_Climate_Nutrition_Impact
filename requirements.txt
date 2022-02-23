@@ -1,4 +1,7 @@
-pymongo[tls,srv]==4.0.1
-numpy==1.21.1
-streamlit==1.2
-plotly
+numpy==1.21.4
+pandas==1.2.4
+Pillow==9.0.1
+plotly==5.0.0
+pymongo==4.0.1
+streamlit==1.5.1
+
