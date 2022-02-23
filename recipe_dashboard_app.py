@@ -9,7 +9,6 @@ are as follows:
 '''
 
 
-python -m pip install "pymongo[srv]"
 
 # Data Setup
 import pandas as pd
