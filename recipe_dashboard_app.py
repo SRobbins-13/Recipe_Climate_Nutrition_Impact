@@ -15,7 +15,7 @@ import random
 import plotly.graph_objects as go
 import plotly.express as px
 from PIL import Image
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 # Setting up streamlit page
 st.set_page_config(
