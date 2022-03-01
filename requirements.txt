@@ -2,4 +2,4 @@ pymongo
 numpy
 streamlit==1.2
 plotly
-
+matplotlib
