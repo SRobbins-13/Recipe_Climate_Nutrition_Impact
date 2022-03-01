@@ -234,14 +234,14 @@ if target_recipe:
 
     bin_list = list(range(0,80,2))
 
-    fig,ax = plt.subplots(figsize = (20,6),facecolor = 'black')
+    fig,ax = plt.pyplot.subplots(figsize = (20,6),facecolor = 'black')
     ax.hist(co2e_sorted, bins = bin_list, edgecolor = 'white')
     ax.axvline(total_co2e, color = 'r', linestyle = 'dashed',linewidth = 4)
     ax.set_facecolor(color = 'black')
     ax.spines['left'].set_color('white')
     ax.spines['bottom'].set_color('white')
-    plt.xticks(fontsize = 15)
-    plt.yticks(fontsize = 15)
+    plt.pyplot.xticks(fontsize = 15)
+    plt.pyplot.yticks(fontsize = 15)
     ax.tick_params(axis='x', colors='white')
     ax.tick_params(axis='y', colors='white')
     ax.set_ylabel('Frequency',fontsize = 20, c = 'white')
