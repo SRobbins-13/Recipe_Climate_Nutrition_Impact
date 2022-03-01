@@ -1,11 +1,7 @@
 
 
 ''' This document is hosted on github and is the source for a Streamlit App.
-The following code is broken into sections based on the user experience of the app. The sections
-are as follows:
-- Data Setup
-- Section 1: Intro & Welcome Text
-
+The following code is broken into sections based on the user experience of the app. 
 '''
 
 
