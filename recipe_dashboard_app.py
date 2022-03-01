@@ -6,7 +6,6 @@ The following code is broken into sections based on the user experience of the a
 
 
 
-
 # Data Setup
 import pandas as pd
 import numpy as np
@@ -26,7 +25,6 @@ st.set_page_config(
 
 #connect to cloud Mongodb server
 database_name = 'RecipeData'
-
 client = MongoClient("mongodb+srv://srobbins13:yFgUZTu1s3RLqo6c@recipecluster.qtpe1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 db = client[database_name]
 
