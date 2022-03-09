@@ -1,4 +1,4 @@
-pymongo
+pymongo==4.0.1
 numpy
 streamlit==1.2
 plotly
