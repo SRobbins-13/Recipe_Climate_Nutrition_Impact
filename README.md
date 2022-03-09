@@ -3,7 +3,7 @@
 ### Abstract
 As an avid home chef, I often get stumped at the start when deciding what new recipe I want to try. When I also try to consider the nutrition and climate impacts of my recipe choice the decision can feel all the more daunting. And I'm [not the only one](https://www.nytimes.com/interactive/2019/04/30/dining/climate-change-food-eating-habits.html). This app is designed to alleviate that challenge. Using recipes sourced from popular home chef [What's Gaby Cooking](https://whatsgabycooking.com/), not only does it suggest new, random recipes for you to try - with detailed instructions and ingredients - it also combines data from two powerful APIs to extract nutrition and carbon dioxide emissions (co2e) for the constituent ingredients. This allows users to have a clear view of the impact of their meal choices. And if they don't like their first option, they can always click for more!
 
-The final dashboard can be viewed [here](https://share.streamlit.io/srobbins-13/recipe_data_engineering/recipe_dashboard_app.py).
+The final dashboard can be viewed [here](https://share.streamlit.io/srobbins-13/recipe_climate_nutrition_impact/recipe_dashboard_app.py).
 
 ### Design
 This app is designed for casual to dedicated home chefs who want to dive deeper into their craft. It provides detailed information on nutrients (e.g. Fats, Carbs, Proteins, etc.) and the environmental impact of different ingredients/ingredient categories.
